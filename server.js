@@ -52,5 +52,5 @@ app.all('*', function (req, res) {
 
 
 app.listen(port, function () {
- console.log('HTTP stub server listening on port ' + port);
+ console.log('REST stub server listening on port ' + port);
 });

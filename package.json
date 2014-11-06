@@ -1,5 +1,5 @@
 {
-  "name": "http-stub",
+  "name": "rest-stub",
   "version": "1.0.0",
   "description": "HTTP server which provides stubbed response",
   "main": "server.js",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikattack/node-http-stub.git"
+    "url": "git://github.com/mikattack/node-rest-stub.git"
   },
-  "homepage": "https://github.com/mikattack/node-http-stub",
+  "homepage": "https://github.com/mikattack/node-rest-stub",
   "keywords": [
-    "http",
+    "rest",
     "stub",
     "utility"
   ],

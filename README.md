@@ -1,4 +1,4 @@
-# http-stub
+# rest-stub
 
 Simple web application which automatically responds to HTTP requests.
 
@@ -19,7 +19,7 @@ Often when creating applications which consume REST APIs, the resource endpoints
 ## Usage
 
 ```
-npm install http-stub
+npm install rest-stub
 npm start
 ```
 
@@ -27,8 +27,8 @@ The application runs on port `48200`.
 
 On OS X, a launch agent is included (if a little clunky to use):
 
-1. Edit the `com.mikattack.http-stub.plist` file and change the `/PATH/TO/server.js` string to point to where `http-stub` was placed.
-2. Copy `com.mikattack.http-stub.plist` to `~/Library/LaunchAgents`.
-3. Run `launchctl load ~/Library/LaunchAgents/com.mikattack.http-stub.plist`
+1. Edit the `com.mikattack.rest-stub.plist` file and change the `/PATH/TO/server.js` string to point to where `rest-stub` was placed.
+2. Copy `com.mikattack.rest-stub.plist` to `~/Library/LaunchAgents`.
+3. Run `launchctl load ~/Library/LaunchAgents/com.mikattack.rest-stub.plist`
 
 Check the *Console* application's output if the server doesn't seem accessible.
