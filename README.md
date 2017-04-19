@@ -20,6 +20,7 @@ Often when creating applications which consume REST APIs, the resource endpoints
 
 ```
 npm install rest-stub
+cd node_modules/rest-stub/
 npm start
 ```
 
